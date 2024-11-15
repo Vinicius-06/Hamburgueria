@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
+
+/* @media(min-width: 280px) and (max-width){
+    
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+/* INICIO HEADER */
+header {
+  background: linear-gradient(
+    to right,
+    #0e0d0d,
+    #1a1a1a,
+    #1c1d1f,
+    #2b2c2c,
+    #454546
+  );
+  font-size: 1.1rem;
+  padding: 1rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  /* width: 97.6%; */
+  width: 100%;
+}
+
+.nav {
+  text-align: end;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  padding-top: 3rem;
+  word-spacing: 5px;
+  padding-right: 25px;
+}
+
+figure img {
+  width: 98.9vw; /* Ocupa 100% da largura da viewport */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  padding-right: 30rem;
+  padding-left: 0.2rem;
+  padding-bottom: 0.1rem;
+}
+
+h6 {
+  font-size: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo-b h2 {
+  position: absolute;
+  width: 40.9rem;
+  top: 27%;
+  left: 50%;
+  right: 5%;
+  text-align: start;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hamburgueres {
+  border-radius: 20px 20px 20px 20px;
+  border: solid;
+  width: 100%;
+  height: 50%;
+}
+
+#hamburgueres {
+  padding: 7.3rem;
+}
+
+figure {
+  text-align: center;
+}
+
+.grid-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 680px;
+}
+
+.grid div {
+  background-color: white;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(247, 247, 247, 0.096);
+  border-radius: 20px;
+}
+
+.conteudo {
+  font-size: 2.9rem;
+  background-color: #000000;
+  padding: 1.5rem;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 95%;
+  padding-bottom: 15rem;
+}
+
+.conteudo h6 {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  padding-bottom: 1rem;
+  background-color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 80%;
+  height: 50%;
+  padding-top: 1rem;
+  border: solid;
+  text-decoration: 0;
+  font-weight: bold;
+}
+
+/* inicio config bebidas */
+
+.refrigerante {
+  border-radius: 20px 20px 20px 20px;
+  width: 75%;
+  border: solid;
+}
+
+#bebidas {
+  padding: 7.3rem;
+}
+/* fim bebidas */
+
+/* inicio salgado */
+.salgados {
+  width: 100%;
+  border: solid;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#salgados {
+  padding: 7rem;
+}
+
+/* fim salgados */
+
+/* NAV */
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: 0;
+  font-weight: bold;
+  color: white;
+}
+
+a:hover {
+  color: red;
+  border-bottom: solid 2px;
+}
+
+/* FIM NAV */
+
+/* WHATS AINDA NA NAVEGAÇÃO */
+.whats {
+  right: 1rem;
+  position: fixed;
+  bottom: 1rem;
+  text-align: end;
+  padding: 1px;
+  z-index: 1;
+  margin-right: 5px;
+}
+
+.whats img {
+  width: 80px; /* Define a largura desejada */
+  height: auto; /* Mantém a proporção original da imagem */
+}
+
+.whats h4 {
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(4, 255, 79);
+}
+/* WHATS AINDA NA NAVEGAÇÃO FIM */
+
+/* FIM HEADER */
+
+/* INICIO SECTION MEIO */
+/* FIM SECTION MEIO */
+
+/* INICIO FOOTER */
+footer {
+  background: linear-gradient(
+    to right,
+    #0e0d0d,
+    #1a1a1a,
+    #1c1d1f,
+    #2b2c2c,
+    #454546
+  );
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+  height: 20vh;
+  width: 97.5%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  bottom: 0;
+  color: white;
+  /* position: fixed; */
+}
+/* FIM FOOTER */
